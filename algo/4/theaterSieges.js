@@ -19,6 +19,11 @@ exemple du résultat final :
 
 function theaterSieges() {
   // Your code here !
+  const column = 26;
+  const row = 100;
+  let position = [column, row];
+
+
 }
 
 module.exports = theaterSieges;
