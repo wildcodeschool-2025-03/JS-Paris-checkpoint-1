@@ -1,0 +1,7 @@
+section>figure>img {
+    display: none;
+}
+
+.skills {
+    flex-direction: column-reverse;
+}
