@@ -32,6 +32,9 @@ p {
   margin: 0;
   margin-top: calc(var(--gutter) * 5);
   margin-bottom: calc(var(--gutter) * -0.3125);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .description {
@@ -55,6 +58,10 @@ p {
   margin-top: calc(var(--gutter) * -2);
   border-radius: var(--radius);
   padding: 0 10%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
 }
 
 .skills--title {
@@ -108,3 +115,28 @@ p {
 .purple-text {
   color: var(--purple);
 }
+
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+article {
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+@media (max-width: 700px) {
+ #delete {
+  display: none;
+ }
+}
+
+section {
+  align-items: center;
+}
+
+
