@@ -25,7 +25,17 @@ const persons = [
 
 */
 
+
+const experiencerole = document.querySelector >= 5 && web dev
+const experiencerole = document.querySelector >= 5 && data analysts
+
+
+
 function findSeniors(persons) {
+  
+  if (persons >= 5 && role === web "dev")
+    return 
+
   // Your code here !
 }
 
