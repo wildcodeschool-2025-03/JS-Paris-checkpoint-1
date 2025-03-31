@@ -27,6 +27,20 @@ const persons = [
 
 function findSeniors(persons) {
   // Your code here !
+  const job = ['web dev', 'data analyst'];
+  const level = 5
+
+  const level = 5;
+
+  for (let i = 0; i < persons.length; i++) {
+    if (persons[i].job === 'web dev' && persons[i].level >= level) {
+      return "web dev seniors";
+    } else if (persons[i].job === 'data analyst' && persons[i].level >= level) {
+      return "data analyst seniors";
+    }
+  }
+
+  return "Aucun senior trouvé";
 }
 
 module.exports = findSeniors;
