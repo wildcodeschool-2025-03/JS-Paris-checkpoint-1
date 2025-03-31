@@ -12,3 +12,17 @@ function isLeapYear(year) {
 }
 
 module.exports = isLeapYear;
+
+function isLeapYear(year) {
+  return (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
+}
+
+module.exports = isLeapYear;
+
+
+console.log(isLeapYear(2004)); // true
+console.log(isLeapYear(2016)); // true
+console.log(isLeapYear(2020)); // true
+console.log(isLeapYear(1900)); // false (divisible par 100 mais pas par 400)
+console.log(isLeapYear(2000)); // true (divisible par 400)
+console.log(isLeapYear(2023)); // false
